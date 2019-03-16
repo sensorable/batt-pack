@@ -1,0 +1,293 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "TrafMaster"
+Date "2018-12-05"
+Rev "V1"
+Comp "Roman Dasovic"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L __Power:Module_AliExpress_LM2596HVS MOD1
+U 1 1 5C8C07EE
+P 2625 6975
+F 0 "MOD1" H 2625 7175 20  0000 C CNN
+F 1 "Module_AliExpress_LM2596HVS" H 2625 7132 20  0000 C CNN
+F 2 "Modulez:Module_AliExpress_LM2596HVS" H 2625 7120 6   0001 C CNN
+F 3 "" H 2400 7100 60  0000 C CNN
+F 4 "AliExpress" H 2625 6975 10  0001 C CNN "Manufacturer1"
+F 5 "https://www.aliexpress.com/item/DC-DC-LM2596-HV-S-60V-3A-Buck-Constant-Current-Voltage-CC-CV-Step-Down-Module/32756197860.html" H 2625 7075 10  0001 C CNN "Manufacturer1PartNumber"
+	1    2625 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L __Power:BatteryParallel_2 BATT2
+U 1 1 5C8C3931
+P 1575 6875
+F 0 "BATT2" H 1727 6885 20  0000 L CNN
+F 1 "BatteryParallel_2" H 1727 6842 20  0000 L CNN
+F 2 "Batteriez:KEYSONE_1049_2x_18650_HOLDER" H 1727 6820 10  0001 L CNN
+F 3 "" H 1300 6950 60  0000 C CNN
+F 4 "KEYSTONE" H 1525 6845 20  0001 C CNN "Manufacturer1"
+F 5 "1049" H 1525 6875 20  0001 C CNN "Manufacturer1PartNumber"
+	1    1575 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:GND #PWR0101
+U 1 1 5C8C39F8
+P 1650 7425
+F 0 "#PWR0101" H 1625 7410 5   0001 C CNN
+F 1 "GND" H 1620 7420 5   0001 C CNN
+F 2 "" H 1650 7425 50  0000 C CNN
+F 3 "" H 1650 7425 50  0000 C CNN
+	1    1650 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7425 1650 7400
+Wire Wire Line
+	1650 7400 1525 7400
+Wire Wire Line
+	1525 7400 1525 7375
+Connection ~ 1650 7400
+Wire Wire Line
+	1650 7400 1650 7375
+Wire Wire Line
+	1525 7200 1525 7150
+Wire Wire Line
+	1525 7150 1650 7150
+Wire Wire Line
+	1650 7150 1650 7200
+Wire Wire Line
+	1650 7150 1650 7000
+Connection ~ 1650 7150
+Wire Wire Line
+	1650 7000 1525 7000
+Wire Wire Line
+	1525 7000 1525 6975
+Connection ~ 1650 7000
+Wire Wire Line
+	1650 7000 1650 6975
+Wire Wire Line
+	1525 6800 1525 6775
+Wire Wire Line
+	1525 6775 1650 6775
+Wire Wire Line
+	1650 6775 1650 6800
+Wire Wire Line
+	1650 6625 1650 6650
+Connection ~ 1650 6775
+Wire Wire Line
+	1525 6625 1525 6650
+Wire Wire Line
+	1525 6650 1650 6650
+Connection ~ 1650 6650
+Wire Wire Line
+	1650 6650 1650 6775
+Wire Wire Line
+	1525 6450 1525 6400
+Wire Wire Line
+	1525 6400 1650 6400
+Wire Wire Line
+	1650 6400 1650 6450
+Wire Wire Line
+	1650 6400 1650 6300
+Connection ~ 1650 6400
+$Comp
+L __Power:BatteryParallel_2 BATT3
+U 1 1 5C8C45E3
+P 1575 7275
+F 0 "BATT3" H 1727 7285 20  0000 L CNN
+F 1 "BatteryParallel_2" H 1727 7242 20  0000 L CNN
+F 2 "Batteriez:KEYSONE_1049_2x_18650_HOLDER" H 1727 7220 10  0001 L CNN
+F 3 "" H 1300 7350 60  0000 C CNN
+F 4 "KEYSTONE" H 1525 7245 20  0001 C CNN "Manufacturer1"
+F 5 "1049" H 1525 7275 20  0001 C CNN "Manufacturer1PartNumber"
+	1    1575 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L __Power:BatteryParallel_2 BATT1
+U 1 1 5C8C48E9
+P 1575 6525
+F 0 "BATT1" H 1727 6535 20  0000 L CNN
+F 1 "BatteryParallel_2" H 1727 6492 20  0000 L CNN
+F 2 "Batteriez:KEYSONE_1049_2x_18650_HOLDER" H 1727 6470 10  0001 L CNN
+F 3 "" H 1300 6600 60  0000 C CNN
+F 4 "KEYSTONE" H 1525 6495 20  0001 C CNN "Manufacturer1"
+F 5 "1049" H 1525 6525 20  0001 C CNN "Manufacturer1PartNumber"
+	1    1575 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P6
+U 1 1 5C8C4D5F
+P 2175 4925
+F 0 "P6" H 2213 4925 10  0000 L CNN
+F 1 "PAD" H 2175 4925 3   0001 C CNN
+F 2 "NPTH_3mm" H 2075 4850 60  0001 C CNN
+F 3 "" H 2205 4925 60  0001 C CNN
+F 4 "MFG1" H 2175 4900 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2175 4925 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2175 4925
+	1    0    0    -1  
+$EndComp
+Text Notes 1975 4750 0    50   ~ 0
+MOUNTING \nHOLES
+Text Notes 2125 4800 0    25   ~ 0
+3mm
+$Comp
+L __SimpleParts:PAD P8
+U 1 1 5C8C5276
+P 2325 4925
+F 0 "P8" H 2363 4925 10  0000 L CNN
+F 1 "PAD" H 2325 4925 3   0001 C CNN
+F 2 "NPTH_3mm" H 2225 4850 60  0001 C CNN
+F 3 "" H 2355 4925 60  0001 C CNN
+F 4 "MFG1" H 2325 4900 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2325 4925 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2325 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P7
+U 1 1 5C8C553B
+P 2175 5150
+F 0 "P7" H 2213 5150 10  0000 L CNN
+F 1 "PAD" H 2175 5150 3   0001 C CNN
+F 2 "NPTH_3mm" H 2075 5075 60  0001 C CNN
+F 3 "" H 2205 5150 60  0001 C CNN
+F 4 "MFG1" H 2175 5125 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2175 5150 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2175 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P9
+U 1 1 5C8C5543
+P 2325 5150
+F 0 "P9" H 2363 5150 10  0000 L CNN
+F 1 "PAD" H 2325 5150 3   0001 C CNN
+F 2 "NPTH_3mm" H 2225 5075 60  0001 C CNN
+F 3 "" H 2355 5150 60  0001 C CNN
+F 4 "MFG1" H 2325 5125 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2325 5150 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2325 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P2
+U 1 1 5C8C5846
+P 1900 4925
+F 0 "P2" H 1938 4925 10  0000 L CNN
+F 1 "PAD" H 1900 4925 3   0001 C CNN
+F 2 "NPTH_3mm" H 1800 4850 60  0001 C CNN
+F 3 "" H 1930 4925 60  0001 C CNN
+F 4 "MFG1" H 1900 4900 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 1900 4925 6   0001 C CNN "Manufacturer1PartNumber"
+	1    1900 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P4
+U 1 1 5C8C584E
+P 2050 4925
+F 0 "P4" H 2088 4925 10  0000 L CNN
+F 1 "PAD" H 2050 4925 3   0001 C CNN
+F 2 "NPTH_3mm" H 1950 4850 60  0001 C CNN
+F 3 "" H 2080 4925 60  0001 C CNN
+F 4 "MFG1" H 2050 4900 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2050 4925 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2050 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P3
+U 1 1 5C8C5856
+P 1900 5150
+F 0 "P3" H 1938 5150 10  0000 L CNN
+F 1 "PAD" H 1900 5150 3   0001 C CNN
+F 2 "NPTH_3mm" H 1800 5075 60  0001 C CNN
+F 3 "" H 1930 5150 60  0001 C CNN
+F 4 "MFG1" H 1900 5125 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 1900 5150 6   0001 C CNN "Manufacturer1PartNumber"
+	1    1900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P5
+U 1 1 5C8C585E
+P 2050 5150
+F 0 "P5" H 2088 5150 10  0000 L CNN
+F 1 "PAD" H 2050 5150 3   0001 C CNN
+F 2 "NPTH_3mm" H 1950 5075 60  0001 C CNN
+F 3 "" H 2080 5150 60  0001 C CNN
+F 4 "MFG1" H 2050 5125 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2050 5150 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P10
+U 1 1 5C8C5B29
+P 2475 4925
+F 0 "P10" H 2513 4925 10  0000 L CNN
+F 1 "PAD" H 2475 4925 3   0001 C CNN
+F 2 "NPTH_3mm" H 2375 4850 60  0001 C CNN
+F 3 "" H 2505 4925 60  0001 C CNN
+F 4 "MFG1" H 2475 4900 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2475 4925 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2475 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P11
+U 1 1 5C8C5DF3
+P 2475 5150
+F 0 "P11" H 2513 5150 10  0000 L CNN
+F 1 "PAD" H 2475 5150 3   0001 C CNN
+F 2 "NPTH_3mm" H 2375 5075 60  0001 C CNN
+F 3 "" H 2505 5150 60  0001 C CNN
+F 4 "MFG1" H 2475 5125 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2475 5150 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2475 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P12
+U 1 1 5C8C63D2
+P 2600 5025
+F 0 "P12" H 2638 5025 10  0000 L CNN
+F 1 "PAD" H 2600 5025 3   0001 C CNN
+F 2 "NPTH_3mm" H 2500 4950 60  0001 C CNN
+F 3 "" H 2630 5025 60  0001 C CNN
+F 4 "MFG1" H 2600 5000 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2600 5025 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2600 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L __SimpleParts:PAD P1
+U 1 1 5C8C66A0
+P 1775 5050
+F 0 "P1" H 1813 5050 10  0000 L CNN
+F 1 "PAD" H 1775 5050 3   0001 C CNN
+F 2 "NPTH_3mm" H 1675 4975 60  0001 C CNN
+F 3 "" H 1805 5050 60  0001 C CNN
+F 4 "MFG1" H 1775 5025 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 1775 5050 6   0001 C CNN "Manufacturer1PartNumber"
+	1    1775 5050
+	1    0    0    -1  
+$EndComp
+Text Notes 1925 5950 0    50   ~ 0
+ADD SCREW HEADERS FOR POWER INPUT
+Text Notes 2000 6175 0    50   ~ 0
+HOLES FOR THE BUTTON INPUTS
+$EndSCHEMATC
