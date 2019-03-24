@@ -1,18 +1,13 @@
-Component,Supplier SKU,Man SKU,Qty per unit,Supplier,Price,Cost per unit,Comment
-PCB,,,1,https://jlcpcb.com/,3,3,
-BMS w/load balancing,,,1,https://www.aliexpress.com/item/3S-4A-11-1V-li-ion-BMS-PCM-battery-protection-board-bms-pcm-with-balancing-for/32377617462.html,8,8,Verify the pads match
-CC/CV DC/DC converter,,,1,https://www.aliexpress.com/item/DC-DC-LM2596-HV-S-60V-3A-Buck-Constant-Current-Voltage-CC-CV-Step-Down-Module/32756197860.html,2,2,Must be exactly the same model to fit other components around it.
-Thermal pad,1168-2175-ND,TGX-150-150-1.5,0.02,https://www.digikey.com/product-detail/en/t-global-technology/TGX-150-150-1.5/1168-2175-ND/7360875,90,1.8,The sheets cuts into 50 pcs of 15mmx30mm. Place under CC/CV
-IP65 latching button switch,EG5508-ND,PVA6LRE21231,1,https://www.digikey.com/product-detail/en/PVA6LRE21231/EG5508-ND/7423421/?itemSeq=287488044,10.72,10.72,Power On/Off
-"Barrel jack, 2.5/5.5",SC1393-ND,PCL722AS,1,https://www.digikey.com/product-detail/en/PCL722AS/SC1393-ND/2238436/?itemSeq=287374077,5,5,External charger
-Rubber seal,SC1396-ND,JCAP,1,https://www.digikey.com/product-detail/en/switchcraft-inc/JCAP/SC1396-ND/2251492,1,1,For the barrel jack
-Battery holders for 18650,36-1049-ND,1049,3,https://www.digikey.com/product-detail/en/keystone-electronics/1049/36-1049-ND/2745670,4,12,
-JST RCY pre-crimped leads,,,1,https://www.trademe.co.nz/electronics-photography/other-electronics/electronic-components/other/listing-1980231570.htm,1,1,
-Screws,,,6,,0.5,3,
-Jumper wire,,,1,,1,1,
-Total BOM,,,,,,48.52,
-,,,,,,,
-,,,,,,,
-Hand assembly,"in-house, price per hour",,0.25,,40,10,
-NCR18650xx batteries,,,6,,8,48,Adjust the current on CC/CV to match the battery capacity
-Total per unit,,,,,,106.52,
+Component,Supplier SKU,Manufacturer SKU,Qty per unit,Supplier link,Comments
+PCB,,,1,https://jlcpcb.com/,
+BMS w/load balancing,,,1,https://www.aliexpress.com/item/3S-4A-11-1V-li-ion-BMS-PCM-battery-protection-board-bms-pcm-with-balancing-for/32377617462.html,Verify the pads match
+CC/CV DC/DC converter,,,1,https://www.aliexpress.com/item/DC-DC-LM2596-HV-S-60V-3A-Buck-Constant-Current-Voltage-CC-CV-Step-Down-Module/32756197860.html,Must be exactly the same model to fit other components around it.
+Thermal pad,1168-2175-ND,TGX-150-150-1.5,0.02,https://www.digikey.com/product-detail/en/t-global-technology/TGX-150-150-1.5/1168-2175-ND/7360875,The sheet cuts into 50 pcs of 15mmx30mm. Place under CC/CV
+IP65 latching button switch,EG5508-ND,PVA6LRE21231,1,https://www.digikey.com/product-detail/en/PVA6LRE21231/EG5508-ND/7423421/?itemSeq=287488044,Power On/Off
+"Barrel jack, 2.5/5.5",SC1393-ND,PCL722AS,1,https://www.digikey.com/product-detail/en/PCL722AS/SC1393-ND/2238436/?itemSeq=287374077,External charger connector
+Rubber seal,SC1396-ND,JCAP,1,https://www.digikey.com/product-detail/en/switchcraft-inc/JCAP/SC1396-ND/2251492,For the barrel jack
+Battery holders for 18650,36-1049-ND,1049,3,https://www.digikey.com/product-detail/en/keystone-electronics/1049/36-1049-ND/2745670,
+JST RCY pre-crimped leads,,,1,https://www.trademe.co.nz/electronics-photography/other-electronics/electronic-components/other/listing-1980231570.htm,No major distributors stock pre-crimped ones. Source from a local hobby store.
+Screws (???),,,6,,"These are supplied with the enclosure, but we may need CSK"
+Jumper wire,,,1,,"Soldering the pushbutton, jack, etc."
+NCR18650xx batteries,,,6,,Adjust the current on CC/CV to match the battery capacity

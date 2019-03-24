@@ -1,18 +1,18 @@
 # 2P3S Battery Pack
-### Designed for use with Sensorable Open Source Camera
+### Designed for use with Sensorable Open Source Cameras
 
 ## Specification
 
 * Charging voltage: 14v ... 36v
 * Output voltage: 9.3v ... 12.6v
-* Batteries: Li-Ion 18650 x 3 or x 6
+* Batteries: Li-Ion 18650 x3 or x6
 * Operational temp: 0C ... 40C
 * Enclosure: RP1170
 * Water ingress: IP65 with a breathable valve
 
 ## Overview
 
-This battery pack combines several COTS components to allow short production runs with manual assembly. All components are "though-hole" and the hole unit can be ordered and put together by any sufficiently skilled individual. It is not suitable for an automated PCBA process or large production runs.
+This battery pack combines several COTS components to allow short production runs with manual assembly. All components are "though-hole" and the whole unit can be ordered and put together by any sufficiently skilled individual. It is not suitable for an automated PCBA process or large production runs.
 
 Charging sources:
 
