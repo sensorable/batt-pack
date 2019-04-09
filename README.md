@@ -9,6 +9,9 @@
 * Operational temp: 0C ... 40C
 * Enclosure: RP1170
 * Water ingress: IP65 with a breathable valve
+* Size: 165mm x 86mm x 40mm
+
+![](img/sensorable-battery-pack-top-black.jpg)
 
 ## Overview
 
@@ -19,6 +22,13 @@ Charging sources:
 * a laptop charger with a barrel connector
 * an intermittent power source like street lights, via a transformer
 * a solar panel, but the efficiency can be low due to lack of MPPT
+
+**Restarting the pack**
+
+1. Insert the batteries
+2. Connect a charger for a brief moment
+
+The BMS requires external voltage close to the pack output to be connected from the outside for it to start working. You need to connect a charger or any similar source of voltage if you removed and re-inserted the batteries.
 
 ## Batteries
 
@@ -47,4 +57,13 @@ The batteries are protected with a commercial BMS module with load balancing. Us
 2. We used JLCPCB for making the PCBs with a good result
 3. Use cutting and drilling templates from the repo to modify the enclosure
 
+![](img/sensorable-battery-pack-components.jpg)
+
+
+## Enclosure assembly instructions
+
+* Trim the breathable valve by 4mm if placed on the back face under the board. Insert the valve from the inside of the case, tighten the nut back side out, cut off the white plastic flush to the nut.
+* Counter-sink post to match the board counter-sinks 
+* Mark holes for the switch and PWR IN.
+* Check that the holes are marked correctly in relation to the countersunk holes and the vent.
 
