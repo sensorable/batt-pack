@@ -1,0 +1,84 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BatteryParallel_2-__Power
+#
+DEF BatteryParallel_2-__Power BATT 0 20 Y Y 1 F N
+F0 "BATT" -125 0 20 V V C CNN
+F1 "BatteryParallel_2-__Power" 150 0 20 V V C CNN
+F2 "" -150 -75 60 H V C CNN
+F3 "" -275 75 60 H V C CNN
+F4 "MFG1" -50 -30 20 H I C CNN "Manufacturer1"
+F5 "MFG1PN" -50 0 20 H I C CNN "Manufacturer1PartNumber"
+DRAW
+P 2 0 1 0 -100 -25 0 -25 N
+P 2 0 1 0 -100 25 0 25 N
+P 2 0 1 0 -90 70 -70 70 N
+P 2 0 1 0 -80 80 -80 60 N
+P 2 0 1 0 -75 -50 -25 -50 N
+P 2 0 1 0 -75 0 -25 0 N
+P 2 0 1 0 25 -25 125 -25 N
+P 2 0 1 0 25 25 125 25 N
+P 2 0 1 0 25 70 45 70 N
+P 2 0 1 0 35 80 35 60 N
+P 2 0 1 0 50 -50 100 -50 N
+P 2 0 1 0 50 0 100 0 N
+P 2 0 1 0 70 -70 -50 -70 N
+P 2 0 1 0 70 40 -50 40 N
+P 2 0 1 0 75 -75 75 -50 N
+P 2 0 1 0 75 25 75 50 N
+X ~ 1 -50 75 50 D 15 15 1 1 I
+X ~ 1 75 75 25 D 15 15 1 1 I
+X ~ 2 -50 -100 50 U 15 15 1 1 I
+X ~ 2 75 -100 25 U 15 15 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GND-__SimpleParts
+#
+DEF ~GND-__SimpleParts #PWR 0 0 Y Y 1 F P
+F0 "#PWR" -25 -15 5 H I C CNN
+F1 "GND-__SimpleParts" -30 -5 5 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 -15 -20 15 -20 0 -35 -15 -20 0 -20 0 0 N
+X GND1 1 0 0 0 D 5 5 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Module_AliExpress_LM2596HVS-__Power
+#
+DEF Module_AliExpress_LM2596HVS-__Power MOD 0 20 Y Y 1 F N
+F0 "MOD" 0 -75 20 H V C CNN
+F1 "Module_AliExpress_LM2596HVS-__Power" 25 -100 20 H V C CNN
+F2 "" -125 -25 60 H V C CNN
+F3 "" -225 125 60 H V C CNN
+F4 "MFG1" 0 0 2 H I C CNN "Manufacturer1"
+F5 "MFG1PN" 0 100 2 H I C CNN "Manufacturer1PartNumber"
+DRAW
+T 0 0 100 15 0 0 0 LM2596HVS Normal 0 C C
+S -100 75 100 -50 0 1 0 f
+X IN+ 1 -125 50 25 R 15 15 1 1 I
+X IN- 2 -125 -25 25 R 15 15 1 1 I
+X OUT- 3 125 -25 25 L 15 15 1 1 I
+X OUT+ 4 125 50 25 L 15 15 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PAD-__SimpleParts
+#
+DEF ~PAD-__SimpleParts P 0 0 N N 1 F N
+F0 "P" 0 25 10 H V C CNN
+F1 "PAD-__SimpleParts" 0 0 3 H I C CNN
+F2 "" -100 -75 60 H I C CNN
+F3 "" 30 0 60 H I C CNN
+F4 "MFG1" 0 -25 6 H I C CNN "Manufacturer1"
+F5 "MFG1PN" 0 0 6 H I C CNN "Manufacturer1PartNumber"
+DRAW
+S -10 10 10 -10 0 1 6 f
+X ~ 1 0 0 0 R 0 0 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library
