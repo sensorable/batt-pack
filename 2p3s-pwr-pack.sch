@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:2p3s-pwr-pack-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -339,19 +340,6 @@ Text GLabel 1625 3250 0    35   Input ~ 0
 V_IN
 Wire Wire Line
 	1625 3250 1700 3250
-$Comp
-L __SimpleParts:GND #PWR0101
-U 1 1 5CB01D8A
-P 1725 3475
-F 0 "#PWR0101" H 1700 3460 5   0001 C CNN
-F 1 "GND" H 1695 3470 5   0001 C CNN
-F 2 "" H 1725 3475 50  0000 C CNN
-F 3 "" H 1725 3475 50  0000 C CNN
-	1    1725 3475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1725 3475 1725 3375
 Wire Wire Line
 	2200 3275 1700 3275
 Wire Wire Line
@@ -359,19 +347,6 @@ Wire Wire Line
 Connection ~ 1700 3250
 Wire Wire Line
 	1700 3250 1725 3250
-$Comp
-L __SimpleParts:GND #PWR0105
-U 1 1 5CB04EA4
-P 2125 3450
-F 0 "#PWR0105" H 2100 3435 5   0001 C CNN
-F 1 "GND" H 2095 3445 5   0001 C CNN
-F 2 "" H 2125 3450 50  0000 C CNN
-F 3 "" H 2125 3450 50  0000 C CNN
-	1    2125 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2125 3450 2125 3350
 Wire Wire Line
 	2125 3350 2200 3350
 $Comp
@@ -422,8 +397,6 @@ Text Notes 3675 4425 0    50   ~ 0
 BMS
 Text Notes 2600 4400 0    35   ~ 0
 2p3s
-Wire Wire Line
-	3800 5175 3350 5175
 Text GLabel 4150 5025 2    35   Input ~ 0
 P+
 Wire Wire Line
@@ -454,9 +427,7 @@ Wire Wire Line
 Connection ~ 2900 4550
 Wire Wire Line
 	2900 4550 2900 4625
-Text GLabel 2625 3300 2    35   Input ~ 0
-P+_SW
-Text GLabel 2625 3225 2    35   Input ~ 0
+Text GLabel 2875 3225 2    35   Input ~ 0
 P+
 Wire Wire Line
 	2525 3225 2625 3225
@@ -465,21 +436,15 @@ Wire Wire Line
 Wire Wire Line
 	2900 5225 2900 5300
 Wire Wire Line
-	3350 5175 3350 4925
-Wire Wire Line
 	3350 4925 2900 4925
 Connection ~ 2900 4925
 Wire Wire Line
 	2900 4925 2900 5000
 Wire Wire Line
-	3350 5250 3350 5300
-Wire Wire Line
 	3350 5300 2900 5300
 Connection ~ 2900 5300
 Wire Wire Line
 	2900 5300 2900 5375
-Wire Wire Line
-	3350 5250 3800 5250
 Wire Wire Line
 	3800 5325 3425 5325
 Wire Wire Line
@@ -488,4 +453,32 @@ Text GLabel 4925 5025 2    35   Input ~ 0
 P+
 Text Notes 2200 2975 0    50   ~ 0
 DC/DC Buck\nCC/CV Module
+$Comp
+L __SimpleParts:Diode_Schottky D1
+U 1 1 5CB5516F
+P 2700 3225
+F 0 "D1" V 2569 3225 10  0000 C CNN
+F 1 "2A " V 2596 3225 10  0000 C CNN
+F 2 "Footprints:SMA" H 2700 3125 60  0001 C CNN
+F 3 "" H 2700 3125 60  0001 C CNN
+F 4 "40V" V 2623 3225 10  0000 C CIN "Voltage"
+F 5 "Diodes Inc" H 2725 3275 10  0001 C CNN "Manufacturer1"
+F 6 "B240AE-13" H 2725 3200 10  0001 C CNN "Manufacturer1PartNumber"
+	1    2700 3225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2875 3225 2775 3225
+Wire Wire Line
+	3800 5100 3350 5100
+Wire Wire Line
+	3350 5100 3350 4925
+Wire Wire Line
+	3350 5175 3800 5175
+Wire Wire Line
+	3350 5175 3350 5300
+Wire Wire Line
+	1725 3375 2125 3375
+Wire Wire Line
+	2125 3375 2125 3350
 $EndSCHEMATC

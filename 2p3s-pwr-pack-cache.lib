@@ -93,23 +93,26 @@ X OUT+ 4 125 50 25 L 15 15 1 1 I
 ENDDRAW
 ENDDEF
 #
-# __SimpleParts_Cap_Pol
+# __SimpleParts_Diode_Schottky
 #
-DEF __SimpleParts_Cap_Pol C 0 40 Y Y 1 F N
-F0 "C" 20 -30 10 H V C CNN
-F1 "__SimpleParts_Cap_Pol" -5 5 8 H V C CNN
+DEF __SimpleParts_Diode_Schottky D 0 40 Y Y 1 F N
+F0 "D" -40 -15 10 H V C CNN
+F1 "__SimpleParts_Diode_Schottky" 45 5 10 V V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
-F4 "V" 20 25 8 H V C CIN "Voltage"
-F5 "MFG1" 50 -10 5 H I C CNN "Manufacturer1"
-F6 "MFG1PN" 50 -20 5 H I C CNN "Manufacturer1PartNumber"
+F4 "V" -20 -30 10 V V C CIN "Voltage"
+F5 "MFG1" 25 50 10 H I C CNN "Manufacturer1"
+F6 "MFG1PN" 25 -25 5 H I C CNN "Manufacturer1PartNumber"
 DRAW
-P 2 0 1 0 -30 -15 30 -15 N
-P 2 0 1 0 30 15 -30 15 N
-P 2 0 1 3 35 20 45 20 N
-P 2 0 1 3 40 25 40 15 N
-X ~ 1 0 50 35 D 16 8 1 1 U
-X ~ 2 0 -50 35 U 16 8 1 1 U
+P 2 0 1 0 -25 25 25 25 N
+P 2 0 1 0 0 0 0 -50 N
+P 2 0 1 0 0 25 0 50 N
+P 2 0 1 0 25 15 30 20 N
+P 2 0 1 0 25 25 30 20 N
+P 3 0 1 0 -25 25 -35 30 -30 35 N
+P 4 0 1 0 0 25 -25 0 25 0 0 25 N
+X ~ 1 0 75 20 D 16 8 1 1 U
+X ~ 2 0 -75 20 U 16 8 1 1 U
 ENDDRAW
 ENDDEF
 #
