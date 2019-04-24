@@ -506,10 +506,10 @@ Wire Wire Line
 	1500 3350 1625 3350
 Connection ~ 1625 3350
 $Comp
-L __SimpleParts:Res R?
+L __SimpleParts:Res R1
 U 1 1 5CC0A910
 P 2950 3225
-F 0 "R?" V 2858 3225 10  0000 C CNN
+F 0 "R1" V 2858 3225 10  0000 C CNN
 F 1 "0.01" V 2885 3225 10  0000 C CNN
 F 2 "Footprints:1206_Medium_Pads" H 2950 3125 60  0001 C CNN
 F 3 "" H 2950 3125 60  0001 C CNN
