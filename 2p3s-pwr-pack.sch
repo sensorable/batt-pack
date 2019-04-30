@@ -17,14 +17,14 @@ $EndDescr
 $Comp
 L __Power:Module_AliExpress_LM2596HVS MOD1
 U 1 1 5C8C07EE
-P 2325 3325
-F 0 "MOD1" H 2325 3525 20  0000 C CNN
-F 1 "Module_AliExpress_LM2596HVS" H 2325 3482 20  0000 C CNN
-F 2 "Modulez:Module_AliExpress_LM2596HVS" H 2325 3470 6   0001 C CNN
-F 3 "" H 2100 3450 60  0000 C CNN
-F 4 "AliExpress" H 2325 3325 10  0001 C CNN "Manufacturer1"
-F 5 "https://www.aliexpress.com/item/DC-DC-LM2596-HV-S-60V-3A-Buck-Constant-Current-Voltage-CC-CV-Step-Down-Module/32756197860.html" H 2325 3425 10  0001 C CNN "Manufacturer1PartNumber"
-	1    2325 3325
+P 3000 3525
+F 0 "MOD1" H 3000 3725 20  0000 C CNN
+F 1 "Module_AliExpress_LM2596HVS" H 3000 3682 20  0000 C CNN
+F 2 "Modulez:Module_AliExpress_LM2596HVS" H 3000 3670 6   0001 C CNN
+F 3 "" H 2775 3650 60  0000 C CNN
+F 4 "AliExpress" H 3000 3525 10  0001 C CNN "Manufacturer1"
+F 5 "https://www.aliexpress.com/item/DC-DC-LM2596-HV-S-60V-3A-Buck-Constant-Current-Voltage-CC-CV-Step-Down-Module/32756197860.html" H 3000 3625 10  0001 C CNN "Manufacturer1PartNumber"
+	1    3000 3525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,161 +113,161 @@ $EndComp
 $Comp
 L __SimpleParts:PAD P6
 U 1 1 5C8C4D5F
-P 7900 3975
-F 0 "P6" H 7938 3975 10  0000 L CNN
-F 1 "PAD" H 7900 3975 3   0001 C CNN
-F 2 "NPTH_5mm" H 7800 3900 60  0001 C CNN
-F 3 "" H 7930 3975 60  0001 C CNN
-F 4 "MFG1" H 7900 3950 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 7900 3975 6   0001 C CNN "Manufacturer1PartNumber"
-	1    7900 3975
+P 5000 3675
+F 0 "P6" H 5038 3675 10  0000 L CNN
+F 1 "PAD" H 5000 3675 3   0001 C CNN
+F 2 "NPTH_5mm" H 4900 3600 60  0001 C CNN
+F 3 "" H 5030 3675 60  0001 C CNN
+F 4 "MFG1" H 5000 3650 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5000 3675 6   0001 C CNN "Manufacturer1PartNumber"
+	1    5000 3675
 	1    0    0    -1  
 $EndComp
-Text Notes 7700 3800 0    50   ~ 0
+Text Notes 4800 3500 0    50   ~ 0
 MOUNTING \nHOLES
-Text Notes 7850 3850 0    25   ~ 0
+Text Notes 4950 3550 0    25   ~ 0
 3mm
 $Comp
 L __SimpleParts:PAD P8
 U 1 1 5C8C5276
-P 8050 3975
-F 0 "P8" H 8088 3975 10  0000 L CNN
-F 1 "PAD" H 8050 3975 3   0001 C CNN
-F 2 "NPTH_5mm" H 7950 3900 60  0001 C CNN
-F 3 "" H 8080 3975 60  0001 C CNN
-F 4 "MFG1" H 8050 3950 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 8050 3975 6   0001 C CNN "Manufacturer1PartNumber"
-	1    8050 3975
+P 5150 3675
+F 0 "P8" H 5188 3675 10  0000 L CNN
+F 1 "PAD" H 5150 3675 3   0001 C CNN
+F 2 "NPTH_5mm" H 5050 3600 60  0001 C CNN
+F 3 "" H 5180 3675 60  0001 C CNN
+F 4 "MFG1" H 5150 3650 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5150 3675 6   0001 C CNN "Manufacturer1PartNumber"
+	1    5150 3675
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P7
 U 1 1 5C8C553B
-P 7900 4200
-F 0 "P7" H 7938 4200 10  0000 L CNN
-F 1 "PAD" H 7900 4200 3   0001 C CNN
-F 2 "NPTH_5mm" H 7800 4125 60  0001 C CNN
-F 3 "" H 7930 4200 60  0001 C CNN
-F 4 "MFG1" H 7900 4175 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 7900 4200 6   0001 C CNN "Manufacturer1PartNumber"
-	1    7900 4200
+P 5000 3900
+F 0 "P7" H 5038 3900 10  0000 L CNN
+F 1 "PAD" H 5000 3900 3   0001 C CNN
+F 2 "NPTH_5mm" H 4900 3825 60  0001 C CNN
+F 3 "" H 5030 3900 60  0001 C CNN
+F 4 "MFG1" H 5000 3875 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5000 3900 6   0001 C CNN "Manufacturer1PartNumber"
+	1    5000 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P9
 U 1 1 5C8C5543
-P 8050 4200
-F 0 "P9" H 8088 4200 10  0000 L CNN
-F 1 "PAD" H 8050 4200 3   0001 C CNN
-F 2 "NPTH_5mm" H 7950 4125 60  0001 C CNN
-F 3 "" H 8080 4200 60  0001 C CNN
-F 4 "MFG1" H 8050 4175 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 8050 4200 6   0001 C CNN "Manufacturer1PartNumber"
-	1    8050 4200
+P 5150 3900
+F 0 "P9" H 5188 3900 10  0000 L CNN
+F 1 "PAD" H 5150 3900 3   0001 C CNN
+F 2 "NPTH_5mm" H 5050 3825 60  0001 C CNN
+F 3 "" H 5180 3900 60  0001 C CNN
+F 4 "MFG1" H 5150 3875 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5150 3900 6   0001 C CNN "Manufacturer1PartNumber"
+	1    5150 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P2
 U 1 1 5C8C5846
-P 7625 3975
-F 0 "P2" H 7663 3975 10  0000 L CNN
-F 1 "PAD" H 7625 3975 3   0001 C CNN
-F 2 "NPTH_5mm" H 7525 3900 60  0001 C CNN
-F 3 "" H 7655 3975 60  0001 C CNN
-F 4 "MFG1" H 7625 3950 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 7625 3975 6   0001 C CNN "Manufacturer1PartNumber"
-	1    7625 3975
+P 4725 3675
+F 0 "P2" H 4763 3675 10  0000 L CNN
+F 1 "PAD" H 4725 3675 3   0001 C CNN
+F 2 "NPTH_5mm" H 4625 3600 60  0001 C CNN
+F 3 "" H 4755 3675 60  0001 C CNN
+F 4 "MFG1" H 4725 3650 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 4725 3675 6   0001 C CNN "Manufacturer1PartNumber"
+	1    4725 3675
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P4
 U 1 1 5C8C584E
-P 7775 3975
-F 0 "P4" H 7813 3975 10  0000 L CNN
-F 1 "PAD" H 7775 3975 3   0001 C CNN
-F 2 "NPTH_5mm" H 7675 3900 60  0001 C CNN
-F 3 "" H 7805 3975 60  0001 C CNN
-F 4 "MFG1" H 7775 3950 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 7775 3975 6   0001 C CNN "Manufacturer1PartNumber"
-	1    7775 3975
+P 4875 3675
+F 0 "P4" H 4913 3675 10  0000 L CNN
+F 1 "PAD" H 4875 3675 3   0001 C CNN
+F 2 "NPTH_5mm" H 4775 3600 60  0001 C CNN
+F 3 "" H 4905 3675 60  0001 C CNN
+F 4 "MFG1" H 4875 3650 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 4875 3675 6   0001 C CNN "Manufacturer1PartNumber"
+	1    4875 3675
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P3
 U 1 1 5C8C5856
-P 7625 4200
-F 0 "P3" H 7663 4200 10  0000 L CNN
-F 1 "PAD" H 7625 4200 3   0001 C CNN
-F 2 "NPTH_5mm" H 7525 4125 60  0001 C CNN
-F 3 "" H 7655 4200 60  0001 C CNN
-F 4 "MFG1" H 7625 4175 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 7625 4200 6   0001 C CNN "Manufacturer1PartNumber"
-	1    7625 4200
+P 4725 3900
+F 0 "P3" H 4763 3900 10  0000 L CNN
+F 1 "PAD" H 4725 3900 3   0001 C CNN
+F 2 "NPTH_5mm" H 4625 3825 60  0001 C CNN
+F 3 "" H 4755 3900 60  0001 C CNN
+F 4 "MFG1" H 4725 3875 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 4725 3900 6   0001 C CNN "Manufacturer1PartNumber"
+	1    4725 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P5
 U 1 1 5C8C585E
-P 7775 4200
-F 0 "P5" H 7813 4200 10  0000 L CNN
-F 1 "PAD" H 7775 4200 3   0001 C CNN
-F 2 "NPTH_5mm" H 7675 4125 60  0001 C CNN
-F 3 "" H 7805 4200 60  0001 C CNN
-F 4 "MFG1" H 7775 4175 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 7775 4200 6   0001 C CNN "Manufacturer1PartNumber"
-	1    7775 4200
+P 4875 3900
+F 0 "P5" H 4913 3900 10  0000 L CNN
+F 1 "PAD" H 4875 3900 3   0001 C CNN
+F 2 "NPTH_5mm" H 4775 3825 60  0001 C CNN
+F 3 "" H 4905 3900 60  0001 C CNN
+F 4 "MFG1" H 4875 3875 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 4875 3900 6   0001 C CNN "Manufacturer1PartNumber"
+	1    4875 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P10
 U 1 1 5C8C5B29
-P 8200 3975
-F 0 "P10" H 8238 3975 10  0000 L CNN
-F 1 "PAD" H 8200 3975 3   0001 C CNN
-F 2 "NPTH_5mm" H 8100 3900 60  0001 C CNN
-F 3 "" H 8230 3975 60  0001 C CNN
-F 4 "MFG1" H 8200 3950 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 8200 3975 6   0001 C CNN "Manufacturer1PartNumber"
-	1    8200 3975
+P 5300 3675
+F 0 "P10" H 5338 3675 10  0000 L CNN
+F 1 "PAD" H 5300 3675 3   0001 C CNN
+F 2 "NPTH_5mm" H 5200 3600 60  0001 C CNN
+F 3 "" H 5330 3675 60  0001 C CNN
+F 4 "MFG1" H 5300 3650 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5300 3675 6   0001 C CNN "Manufacturer1PartNumber"
+	1    5300 3675
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P11
 U 1 1 5C8C5DF3
-P 8200 4200
-F 0 "P11" H 8238 4200 10  0000 L CNN
-F 1 "PAD" H 8200 4200 3   0001 C CNN
-F 2 "NPTH_5mm" H 8100 4125 60  0001 C CNN
-F 3 "" H 8230 4200 60  0001 C CNN
-F 4 "MFG1" H 8200 4175 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 8200 4200 6   0001 C CNN "Manufacturer1PartNumber"
-	1    8200 4200
+P 5300 3900
+F 0 "P11" H 5338 3900 10  0000 L CNN
+F 1 "PAD" H 5300 3900 3   0001 C CNN
+F 2 "NPTH_5mm" H 5200 3825 60  0001 C CNN
+F 3 "" H 5330 3900 60  0001 C CNN
+F 4 "MFG1" H 5300 3875 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5300 3900 6   0001 C CNN "Manufacturer1PartNumber"
+	1    5300 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P12
 U 1 1 5C8C63D2
-P 8325 4075
-F 0 "P12" H 8363 4075 10  0000 L CNN
-F 1 "PAD" H 8325 4075 3   0001 C CNN
-F 2 "NPTH_5mm" H 8225 4000 60  0001 C CNN
-F 3 "" H 8355 4075 60  0001 C CNN
-F 4 "MFG1" H 8325 4050 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 8325 4075 6   0001 C CNN "Manufacturer1PartNumber"
-	1    8325 4075
+P 5425 3775
+F 0 "P12" H 5463 3775 10  0000 L CNN
+F 1 "PAD" H 5425 3775 3   0001 C CNN
+F 2 "NPTH_5mm" H 5325 3700 60  0001 C CNN
+F 3 "" H 5455 3775 60  0001 C CNN
+F 4 "MFG1" H 5425 3750 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 5425 3775 6   0001 C CNN "Manufacturer1PartNumber"
+	1    5425 3775
 	1    0    0    -1  
 $EndComp
 $Comp
 L __SimpleParts:PAD P1
 U 1 1 5C8C66A0
-P 7500 4100
-F 0 "P1" H 7538 4100 10  0000 L CNN
-F 1 "PAD" H 7500 4100 3   0001 C CNN
-F 2 "NPTH_5mm" H 7400 4025 60  0001 C CNN
-F 3 "" H 7530 4100 60  0001 C CNN
-F 4 "MFG1" H 7500 4075 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 7500 4100 6   0001 C CNN "Manufacturer1PartNumber"
-	1    7500 4100
+P 4600 3800
+F 0 "P1" H 4638 3800 10  0000 L CNN
+F 1 "PAD" H 4600 3800 3   0001 C CNN
+F 2 "NPTH_5mm" H 4500 3725 60  0001 C CNN
+F 3 "" H 4630 3800 60  0001 C CNN
+F 4 "MFG1" H 4600 3775 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 4600 3800 6   0001 C CNN "Manufacturer1PartNumber"
+	1    4600 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -304,65 +304,59 @@ Text GLabel 2825 4500 0    35   Input ~ 0
 B+
 Wire Wire Line
 	2900 4500 2900 4550
-Text Notes 1100 2925 0    50   ~ 0
+Text Notes 1775 3125 0    50   ~ 0
 External Power Input
-Text Notes 1100 2975 0    30   ~ 0
+Text Notes 1775 3175 0    30   ~ 0
 Barrel Jack
-Text Notes 1100 3025 0    30   ~ 0
+Text Notes 1775 3225 0    30   ~ 0
 PCB Connection Points
 $Comp
 L __SimpleParts:PAD P15
 U 1 1 5CAF7564
-P 1700 3475
-F 0 "P15" V 1698 3516 10  0000 L CNN
-F 1 "PAD" H 1700 3475 3   0001 C CNN
-F 2 "Footprints:HOLE_4mmx2.2mm" H 1600 3400 60  0001 C CNN
-F 3 "" H 1730 3475 60  0001 C CNN
-F 4 "MFG1" H 1700 3450 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 1700 3475 6   0001 C CNN "Manufacturer1PartNumber"
-	1    1700 3475
+P 2375 3675
+F 0 "P15" V 2373 3716 10  0000 L CNN
+F 1 "PAD" H 2375 3675 3   0001 C CNN
+F 2 "Footprints:HOLE_4mmx2.2mm" H 2275 3600 60  0001 C CNN
+F 3 "" H 2405 3675 60  0001 C CNN
+F 4 "MFG1" H 2375 3650 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2375 3675 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2375 3675
 	-1   0    0    1   
 $EndComp
 $Comp
 L __SimpleParts:PAD P14
 U 1 1 5CAF756C
-P 1700 3175
-F 0 "P14" V 1699 3134 10  0000 R CNN
-F 1 "PAD" H 1700 3175 3   0001 C CNN
-F 2 "Footprints:HOLE_4mmx2.2mm" H 1600 3100 60  0001 C CNN
-F 3 "" H 1730 3175 60  0001 C CNN
-F 4 "MFG1" H 1700 3150 6   0001 C CNN "Manufacturer1"
-F 5 "MFG1PN" H 1700 3175 6   0001 C CNN "Manufacturer1PartNumber"
-	1    1700 3175
+P 2375 3375
+F 0 "P14" V 2374 3334 10  0000 R CNN
+F 1 "PAD" H 2375 3375 3   0001 C CNN
+F 2 "Footprints:HOLE_4mmx2.2mm" H 2275 3300 60  0001 C CNN
+F 3 "" H 2405 3375 60  0001 C CNN
+F 4 "MFG1" H 2375 3350 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2375 3375 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2375 3375
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1500 3250 0    35   Input ~ 0
+Text GLabel 2175 3450 0    35   Input ~ 0
 V_IN+
 $Comp
 L __SimpleParts:GND #PWR0106
 U 1 1 5CB05D93
-P 2525 3450
-F 0 "#PWR0106" H 2500 3435 5   0001 C CNN
-F 1 "GND" H 2495 3445 5   0001 C CNN
-F 2 "" H 2525 3450 50  0000 C CNN
-F 3 "" H 2525 3450 50  0000 C CNN
-	1    2525 3450
+P 3200 3650
+F 0 "#PWR0106" H 3175 3635 5   0001 C CNN
+F 1 "GND" H 3170 3645 5   0001 C CNN
+F 2 "" H 3200 3650 50  0000 C CNN
+F 3 "" H 3200 3650 50  0000 C CNN
+	1    3200 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2525 3450 2525 3350
+	3200 3650 3200 3550
 Wire Wire Line
-	2525 3350 2450 3350
+	3200 3550 3125 3550
 Wire Wire Line
-	2525 3225 2525 3275
+	3200 3425 3200 3475
 Wire Wire Line
-	2525 3275 2450 3275
-Text Notes 4800 3425 0    50   ~ 0
-NOTE TO MAX
-Text Notes 4675 3475 0    25   ~ 0
-Switches in JIRA issue are SPST MOMENTARY switches
-Text Notes 4675 3525 0    25   ~ 0
-discuss switch operation, what gets switched. charging, operation? both? (DPDT)
+	3200 3475 3125 3475
 $Comp
 L __Power:Module_AliExpress_BMS_3s_Balancing-3S0404LI502 MOD2
 U 1 1 5CB0E464
@@ -416,10 +410,10 @@ Wire Wire Line
 Connection ~ 2900 4550
 Wire Wire Line
 	2900 4550 2900 4625
-Text GLabel 3250 3225 2    35   Input ~ 0
+Text GLabel 3925 3425 2    35   Input ~ 0
 P+
 Wire Wire Line
-	2525 3225 2625 3225
+	3200 3425 3300 3425
 Wire Wire Line
 	2900 4875 2900 4925
 Wire Wire Line
@@ -440,20 +434,20 @@ Wire Wire Line
 	3425 5325 3425 5650
 Text GLabel 4925 5025 2    35   Input ~ 0
 P+
-Text Notes 2200 2975 0    50   ~ 0
+Text Notes 2775 3225 0    50   ~ 0
 DC/DC Buck\nCC/CV Module
 $Comp
 L __SimpleParts:Diode_Schottky D1
 U 1 1 5CB5516F
-P 2700 3225
-F 0 "D1" V 2569 3225 10  0000 C CNN
-F 1 "2A " V 2596 3225 10  0000 C CNN
-F 2 "Footprints:SMA" H 2700 3125 60  0001 C CNN
-F 3 "" H 2700 3125 60  0001 C CNN
-F 4 "40V" V 2623 3225 10  0000 C CIN "Voltage"
-F 5 "Diodes Inc" H 2725 3275 10  0001 C CNN "Manufacturer1"
-F 6 "B240AE-13" H 2725 3200 10  0001 C CNN "Manufacturer1PartNumber"
-	1    2700 3225
+P 3375 3425
+F 0 "D1" V 3244 3425 10  0000 C CNN
+F 1 "2A " V 3271 3425 10  0000 C CNN
+F 2 "Footprints:SMA" H 3375 3325 60  0001 C CNN
+F 3 "" H 3375 3325 60  0001 C CNN
+F 4 "40V" V 3298 3425 10  0000 C CIN "Voltage"
+F 5 "Diodes Inc" H 3400 3475 10  0001 C CNN "Manufacturer1"
+F 6 "B240AE-13" H 3400 3400 10  0001 C CNN "Manufacturer1PartNumber"
+	1    3375 3425
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -467,60 +461,60 @@ Wire Wire Line
 $Comp
 L __Interfaces:Conn_Basic_2_pin P16
 U 1 1 5CBFDC68
-P 1625 3300
-F 0 "P16" H 1678 3310 10  0000 L CNN
-F 1 "Conn_Basic_2_pin" H 1678 3287 5   0000 L CNN
-F 2 "Footprints:TERM_BLK_2_SIDE_2.54MM" H 1678 3277 2   0001 L CNN
-F 3 "" H 1480 3355 20  0000 C CNN
-F 4 "Phoenix" H 1695 3290 10  0001 C CNN "Manufacturer1"
-F 5 "1725656" H 1685 3310 10  0001 C CNN "Manufacturer1PartNumber"
-	1    1625 3300
+P 2300 3500
+F 0 "P16" H 2353 3510 10  0000 L CNN
+F 1 "Conn_Basic_2_pin" H 2353 3487 5   0000 L CNN
+F 2 "Footprints:TERM_BLK_2_SIDE_2.54MM" H 2353 3477 2   0001 L CNN
+F 3 "" H 2155 3555 20  0000 C CNN
+F 4 "Phoenix" H 2370 3490 10  0001 C CNN "Manufacturer1"
+F 5 "1725656" H 2360 3510 10  0001 C CNN "Manufacturer1PartNumber"
+	1    2300 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 1025 2900 0    50   ~ 0
+Text Notes 1675 3025 0    50   ~ 0
 Terminal Block
 Wire Wire Line
-	1775 3250 1775 3275
+	2450 3450 2450 3475
 Wire Wire Line
-	1775 3275 2200 3275
+	2450 3475 2875 3475
 Wire Wire Line
-	1625 3250 1700 3250
+	2300 3450 2375 3450
 Wire Wire Line
-	1625 3350 1700 3350
+	2300 3550 2375 3550
 Wire Wire Line
-	1700 3350 1700 3475
-Connection ~ 1700 3350
+	2375 3550 2375 3675
+Connection ~ 2375 3550
 Wire Wire Line
-	1700 3350 2200 3350
+	2375 3550 2875 3550
 Wire Wire Line
-	1700 3175 1700 3250
-Connection ~ 1700 3250
+	2375 3375 2375 3450
+Connection ~ 2375 3450
 Wire Wire Line
-	1700 3250 1775 3250
+	2375 3450 2450 3450
 Wire Wire Line
-	1500 3250 1625 3250
-Connection ~ 1625 3250
-Text GLabel 1500 3350 0    35   Input ~ 0
+	2175 3450 2300 3450
+Connection ~ 2300 3450
+Text GLabel 2175 3550 0    35   Input ~ 0
 V_IN-
 Wire Wire Line
-	1500 3350 1625 3350
-Connection ~ 1625 3350
+	2175 3550 2300 3550
+Connection ~ 2300 3550
 $Comp
-L __SimpleParts:Res R?
+L __SimpleParts:Res R1
 U 1 1 5CC0A910
-P 2950 3225
-F 0 "R?" V 2858 3225 10  0000 C CNN
-F 1 "0.01" V 2885 3225 10  0000 C CNN
-F 2 "Footprints:1206_Medium_Pads" H 2950 3125 60  0001 C CNN
-F 3 "" H 2950 3125 60  0001 C CNN
-F 4 "5%" V 3030 3345 60  0001 C CNN "Tolerance"
-F 5 "Panasonic Electronic Components" V 3130 3445 60  0001 C CNN "Manufacturer1"
-F 6 "ERJ-8CWJR010V" V 3230 3545 60  0001 C CNN "Manufacturer1PartNumber"
-	1    2950 3225
+P 3625 3425
+F 0 "R1" V 3533 3425 10  0000 C CNN
+F 1 "0.01" V 3560 3425 10  0000 C CNN
+F 2 "Footprints:1206_Medium_Pads" H 3625 3325 60  0001 C CNN
+F 3 "" H 3625 3325 60  0001 C CNN
+F 4 "5%" V 3705 3545 60  0001 C CNN "Tolerance"
+F 5 "Panasonic Electronic Components" V 3805 3645 60  0001 C CNN "Manufacturer1"
+F 6 "ERJ-8CWJR010V" V 3905 3745 60  0001 C CNN "Manufacturer1PartNumber"
+	1    3625 3425
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2775 3225 2875 3225
+	3450 3425 3550 3425
 Wire Wire Line
-	3025 3225 3250 3225
+	3700 3425 3925 3425
 $EndSCHEMATC
