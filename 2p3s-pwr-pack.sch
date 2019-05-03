@@ -517,4 +517,32 @@ Wire Wire Line
 	3450 3425 3550 3425
 Wire Wire Line
 	3700 3425 3925 3425
+$Comp
+L __SimpleParts:PAD P17
+U 1 1 5CC9F4D9
+P 2000 5000
+F 0 "P17" H 2038 5000 10  0000 L CNN
+F 1 "PAD" H 2000 5000 3   0001 C CNN
+F 2 "NPTH_3mm" H 1900 4925 60  0001 C CNN
+F 3 "" H 2030 5000 60  0001 C CNN
+F 4 "MFG1" H 2000 4975 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2000 5000 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 1925 4900 0    50   ~ 0
+Battery \nTie-Down\nHoles
+$Comp
+L __SimpleParts:PAD P19
+U 1 1 5CCA29D3
+P 2200 5000
+F 0 "P19" H 2238 5000 10  0000 L CNN
+F 1 "PAD" H 2200 5000 3   0001 C CNN
+F 2 "NPTH_3mm" H 2100 4925 60  0001 C CNN
+F 3 "" H 2230 5000 60  0001 C CNN
+F 4 "MFG1" H 2200 4975 6   0001 C CNN "Manufacturer1"
+F 5 "MFG1PN" H 2200 5000 6   0001 C CNN "Manufacturer1PartNumber"
+	1    2200 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

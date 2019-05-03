@@ -154,6 +154,7 @@ F3 "" 0 -100 60 H I C CNN
 F4 "Tol" 80 120 60 V I C CNN "Tolerance"
 F5 "MFG1" 180 220 60 V I C CNN "Manufacturer1"
 F6 "MFG1PN" 280 320 60 V I C CNN "Manufacturer1PartNumber"
+F7 " " 425 350 25 V V C CNN "DNU"
 DRAW
 P 7 0 1 0 0 50 -10 40 10 20 -10 0 10 -20 -10 -40 0 -50 N
 X ~ 1 0 75 20 D 16 8 1 1 U
